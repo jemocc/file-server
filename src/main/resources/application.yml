@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: file-server
+  datasource:
+    h2:
+      url: jdbc:h2:file:~/.h2/h2
+      username: admin
+      password: admin
+      driver: org.h2.Driver
+server:
+  port: 9300
+
