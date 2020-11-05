@@ -31,14 +31,14 @@ public class H2JdbcTemplateCfg {
     private String password;
     private String driver;
 
-    @Bean("H2")
+    @Bean("H2DataSource")
     DataSource h2DataSource(){
         url = url.replace("~", PublicUtil.getTempDir());
         return DataSourceBuilder.create().url(url).username(username).password(password).driverClassName(driver).build();
     }
 
     @Bean("H2JdbcTemplate")
-    JdbcTemplate h2JdbcTemplate(@Qualifier("H2") DataSource dataSource){
+    JdbcTemplate h2JdbcTemplate(@Qualifier("H2DataSource") DataSource dataSource){
         return new JdbcTemplate(dataSource);
     }
 

@@ -1,6 +1,6 @@
 package com.cc.fileserver.dao;
 
-import com.cc.fileserver.db_entity.FileIndex;
+import com.cc.fileserver.bean.entity.FileIndex;
 
 import java.util.List;
 

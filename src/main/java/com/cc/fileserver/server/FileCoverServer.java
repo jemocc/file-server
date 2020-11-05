@@ -1,7 +1,7 @@
 package com.cc.fileserver.server;
 
 import com.aspose.words.UnsupportedFileFormatException;
-import com.cc.fileserver.db_entity.FileIndex;
+import com.cc.fileserver.bean.entity.FileIndex;
 
 /**
  * @InterfaceName FileCoverServer

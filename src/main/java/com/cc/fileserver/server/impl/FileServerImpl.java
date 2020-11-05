@@ -1,11 +1,9 @@
 package com.cc.fileserver.server.impl;
 
-import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.cc.fileserver.dao.FileIndexDao;
-import com.cc.fileserver.db_entity.FileIndex;
-import com.cc.fileserver.plat_entity.RspStatus;
+import com.cc.fileserver.bean.entity.FileIndex;
 import com.cc.fileserver.server.FileServer;
 import com.cc.fileserver.util.FileUtil;
 import com.cc.fileserver.util.PublicUtil;

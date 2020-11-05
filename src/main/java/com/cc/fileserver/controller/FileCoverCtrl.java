@@ -2,19 +2,16 @@ package com.cc.fileserver.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import com.aspose.words.UnsupportedFileFormatException;
-import com.cc.fileserver.db_entity.FileIndex;
-import com.cc.fileserver.plat_entity.Const;
-import com.cc.fileserver.plat_entity.Rsp;
+import com.cc.fileserver.bean.entity.FileIndex;
+import com.cc.fileserver.bean.Const;
+import com.cc.fileserver.bean.pojo.Rsp;
 import com.cc.fileserver.server.FileCoverServer;
-import com.cc.fileserver.util.PublicUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.List;
 
 
 /**

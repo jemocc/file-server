@@ -1,10 +1,9 @@
 package com.cc.fileserver.dao.impl;
 
 import com.cc.fileserver.dao.FileIndexDao;
-import com.cc.fileserver.db_entity.FileIndex;
+import com.cc.fileserver.bean.entity.FileIndex;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
 import java.sql.Timestamp;

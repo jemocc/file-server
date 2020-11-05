@@ -1,8 +1,8 @@
 package com.cc.fileserver.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.cc.fileserver.db_entity.FileIndex;
-import com.cc.fileserver.plat_entity.Rsp;
+import com.cc.fileserver.bean.entity.FileIndex;
+import com.cc.fileserver.bean.pojo.Rsp;
 import com.cc.fileserver.server.FileServer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

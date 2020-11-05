@@ -4,7 +4,7 @@ import com.aspose.words.Document;
 import com.aspose.words.FontSettings;
 import com.aspose.words.UnsupportedFileFormatException;
 import com.cc.fileserver.dao.FileIndexDao;
-import com.cc.fileserver.db_entity.FileIndex;
+import com.cc.fileserver.bean.entity.FileIndex;
 import com.cc.fileserver.server.FileCoverServer;
 import com.cc.fileserver.util.FileUtil;
 import com.cc.fileserver.util.PublicUtil;

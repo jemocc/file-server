@@ -1,7 +1,7 @@
 package com.cc.fileserver.server;
 
 import com.alibaba.fastjson.JSONObject;
-import com.cc.fileserver.db_entity.FileIndex;
+import com.cc.fileserver.bean.entity.FileIndex;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.OutputStream;
